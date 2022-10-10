@@ -31,7 +31,6 @@ public class ApiClient {
         }
 
         try {
-            //Nodo
             FileOutputStream fo = new FileOutputStream(archivo);
             BufferedOutputStream buff = new BufferedOutputStream(fo);
             ObjectOutputStream output = new ObjectOutputStream(buff);
